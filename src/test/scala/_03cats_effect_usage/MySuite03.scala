@@ -1,8 +1,10 @@
+package _03cats_effect_usage
+
 import weaver._
 import cats.effect._
 
 // Suites must be "objects" for them to be picked by the framework
-object MySuite extends SimpleIOSuite {
+object MySuite03 extends SimpleIOSuite {
 
   val randomUUID = IO(java.util.UUID.randomUUID())
 

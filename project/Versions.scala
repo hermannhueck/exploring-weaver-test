@@ -4,11 +4,13 @@ object Versions {
   val projectVersion = "0.1.0"
 
   // Scala
-  val scala2Version = "2.13.9"
+  val scala2Version = "2.13.10"
 
   // 3rd party libraries
   val weaverVersion = "0.8.1"
-  // val newTypeVersion = "0.4.4"
+  val http4sVersion = "1.0.0-M38"
+  val catsVersion   = "2.9.0"
+// val newTypeVersion = "0.4.4"
   // val circeVersion   = "0.14.4"
   val munitVersion  = "0.7.29"
   val slf4jVersion  = "2.0.6"
